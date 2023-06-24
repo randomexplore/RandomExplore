@@ -1,0 +1,47 @@
+.Xocpdb{
+    display: grid;
+    grid-template-rows: 60vh 40vh;
+    height: 100vh;
+}
+.Xocpdbps{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.Xocpdbps1s{
+    display: grid; grid-template-rows: 50% 50%;
+}
+
+#Xocpdbpsim{
+    width: 320px;
+    height: 180px;
+    border: 0;
+}
+.Xocpdbcte{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Xocpdbdlsups{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.Xocpdbups{
+    display: grid ;
+    grid-template-columns: 50% 50%;
+}
+#Xocpdbups1ig{
+    width: 160px;
+    height: 90px;
+}
+#Xocpdb2psim{
+width:320px ;
+height: 180px;
+border: 0;
+}
+#Xocpdbpsbtn:active{
+    padding: 5px;
+    background-color: red;
+}
