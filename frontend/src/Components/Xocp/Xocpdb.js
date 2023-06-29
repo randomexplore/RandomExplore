@@ -90,9 +90,7 @@ export default function Xocpdb() {
   const handelclickXocpdbpsimin = () => {
     document.getElementById("Xocpdbpsimin").click()
   }
-  const handelclickXocpdbups1igin = () => {
-    document.getElementById("Xocpdbups1igin").click()
-  }
+  
 
   return (
     <>
@@ -159,22 +157,6 @@ export default function Xocpdb() {
             </div>
             <button onClick={handeldel} id="Xocpdbpsbtn" ></button>
           </div>
-          {/* <div className='Xocpdbups'>
-            <div className='Xocpdbups1'>
-              <input type="text" />
-              <input type="text" />
-              <br />
-              <br />
-              <img  alt="" id='Xocpdbups1ig' />
-              <input type="file" name="" id="Xocpdbups1igin" hidden />
-              <button onClick={handelclickXocpdbups1igin}></button>
-            </div>
-            <div className='Xocpdbups2'>
-              <input type="text" />
-              <textarea name="" id="" cols="30" rows="10"></textarea>
-              <button></button>
-            </div>
-          </div> */}
         </div>
       </div>
       <div>

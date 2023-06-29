@@ -17,7 +17,7 @@ export default function Main() {
     { path: "/Privacypolicy", element: <Privacypolicy /> },
     { path: "/Cate/:name", element: <Catepts /> },
     { path: '/Posts/:Cate/:id', element: <Posts /> },
-    { path: process.env.REACT_APP_XOCPDB, element: <Xocpdb /> },
+    { path: '/Xocp/krisnil/mn/cp', element: <Xocpdb /> },
 
   ])
   return (
